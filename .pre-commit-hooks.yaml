@@ -9,7 +9,7 @@
 - id: gci
   name: gci
   description: Control golang package import order and make it always deterministic.
-  entry: gci -w
+  entry: gci write
   types: [go]
   language: golang
   pass_filenames: True
