@@ -21,3 +21,11 @@
   language: script
   args: ["."]
   pass_filenames: false
+- id: shfmt
+  name: shfmt
+  description: Run shfmt to format shell scripts
+  entry: shfmt -w
+  types: [shell]
+  language: golang
+  pass_filenames: True
+  additional_dependencies: ["mvdan.cc/sh/v3/cmd/shfmt"]
