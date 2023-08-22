@@ -6,6 +6,16 @@
   language: golang
   pass_filenames: True
   additional_dependencies: ["mvdan.cc/gofumpt@v0.5.0"]
+- id: golines-gofumpt
+  name: golines-gofumpt
+  description: Run golines with gofumpt as base formatter
+  entry: golines -w --base-formatter gofumpt
+  args: ["-m120"]
+  types: [go]
+  language: golang
+  pass_filenames: True
+  additional_dependencies:
+    ["mvdan.cc/gofumpt@v0.5.0", "github.com/segmentio/golines@v0.11.0"]
 - id: gci
   name: gci
   description: Control golang package import order and make it always deterministic.
