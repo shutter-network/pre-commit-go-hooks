@@ -5,7 +5,7 @@
   types: [go]
   language: golang
   pass_filenames: True
-  additional_dependencies: ["mvdan.cc/gofumpt@v0.3.1"]
+  additional_dependencies: ["mvdan.cc/gofumpt@v0.5.0"]
 - id: gci
   name: gci
   description: Control golang package import order and make it always deterministic.
