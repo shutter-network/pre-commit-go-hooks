@@ -23,7 +23,7 @@
   types: [go]
   language: golang
   pass_filenames: True
-  additional_dependencies: ["github.com/daixiang0/gci@v0.6.3"]
+  additional_dependencies: ["github.com/daixiang0/gci@v0.12.1"]
 - id: go-mod-tidy
   name: Run go mod tidy
   entry: ./go-mod-tidy
