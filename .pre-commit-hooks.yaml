@@ -5,7 +5,7 @@
   types: [go]
   language: golang
   pass_filenames: True
-  additional_dependencies: ["mvdan.cc/gofumpt@v0.5.0"]
+  additional_dependencies: ["mvdan.cc/gofumpt@v0.6.0"]
 - id: golines-gofumpt
   name: golines-gofumpt
   description: Run golines with gofumpt as base formatter
